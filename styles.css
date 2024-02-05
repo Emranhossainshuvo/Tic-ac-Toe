@@ -119,7 +119,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, .9);
+    background-color: rgba(8, 51, 76, 0.9);
     justify-content: center;
     align-items: center;
     color: white;
@@ -129,15 +129,16 @@
   
   .winning-message button {
     font-size: 3rem;
-    background-color: white;
+    border-radius: 10px;
+    background-color: rgba(187, 200, 208, 0.843);
     border: 1px solid black;
     padding: .25em .5em;
     cursor: pointer;
   }
   
   .winning-message button:hover {
-    background-color: black;
-    color: white;
+    background-color: #0B60B0;
+    color: #F0EDCF;
     border-color: white;
   }
   
